@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Anon Chat</title>
+</head>
+<body class="bg-gray-700">
+    <div id="chat" class="h-96 w-80 rounded-xl bg-lime-400 p-2 m-auto mt-20">
+
+    </div>
+
+    <div class="flex w-80 m-auto" style="margin-top: -10px;">
+        <input id="input" type="text" autocomplete="off" class="h-10 w-3/4 px-2 rounded-bl-xl border-0 outline-0 text-xl">
+        <input onclick="sendMessage()" type="submit" value="Send" class="h-10 w-1/4 bg-lime-300 rounded-br-xl text-xl
+         hover:bg-lime-200 transition-colors">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
